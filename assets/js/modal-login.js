@@ -1,5 +1,6 @@
 function Login() {
     var done = 0;
+    var user = document.login.usuario.value
     var usuario = document.login.usuario.value;
     var password = document.login.password.value;
     if (usuario == "USUARIO1" && password == "CONTRASEÑA1") {
@@ -12,4 +13,3 @@ function Login() {
         window.location = "errorpopup.html";
     }
 }
-
